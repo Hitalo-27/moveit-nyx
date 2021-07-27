@@ -1,0 +1,118 @@
+
+
+.loginGitContainer{
+    display:flex;
+    align-items: center;
+    margin-top: 10%;
+
+    }
+
+.loginSimbolo{
+    opacity: 15%;
+}
+ .loginSimbolo img.simbolo1{
+    position: absolute;
+    left: -1.72%;
+    right: 85.66%;
+   
+    bottom: 27.02%;
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #1e2229 100%);
+    
+    }
+
+.loginSimbolo img.simbolo2{
+    position: absolute;
+    left: 10.12%;
+    right: 68.44%;
+    
+    bottom: 9.76%;
+        
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #1e2229 100%);
+        
+        
+        }
+
+ .loginSimbolo img.simbolo3{
+   position: absolute;
+    left: 29.50%;
+    right: 51.39%;
+  
+    bottom: 27.02%;
+            
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #1e2229 100%);
+            
+            }
+    
+.loginGitContainer img.logo{
+    position: absolute;
+    width: 360px;
+    height: 76px;
+    left: 780px;
+    top: 145px;
+}
+
+.loginGitContainer strong{
+    position: absolute;
+    width: 191px;
+    height: 46px;
+    left: 780px;
+    top: 300px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 46px;
+    color: #fff;
+       
+    
+    }
+    
+.loginGitContainer p{
+    position: absolute;
+    width: 318px;
+    height: 60px;
+    left: 780px;
+    top: 380px;
+    color:#fff
+      
+      
+    
+}
+.loginGitContainer input{
+    position: absolute;
+    width: 340px;
+    height: 80px;
+    left: 780px;
+    top: 460px;
+    border: solid 3px #007bff;
+  /*tirar a borda branca do botão*/
+  outline: thin dotted;
+  outline: 0px auto -webkit-focus-ring-color;
+  outline-offset: 0px;
+  
+  
+}
+.loginGitContainer button{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 1125px;
+    top: 460px;
+    background: transparent;
+    border: solid 2px #007bff;
+    color: var(--blue-dark);
+
+     /*tirar a borda branca do botão*/
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
+
+.loginGitContainer button:hover{
+    background: var(--green);
+    color: var(--title);
+}
+    
+    
